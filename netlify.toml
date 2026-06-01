@@ -3,11 +3,9 @@
   to = "/success.html"
   status = 200
   force = true
-  conditions = {Method = ["POST"]}
 
 [[redirects]]
   from = "/failure"
   to = "/failure.html"
   status = 200
   force = true
-  conditions = {Method = ["POST"]}
